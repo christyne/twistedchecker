@@ -1,4 +1,4 @@
 # enable: W9601
 
-# Should import print_function from __future__ here.
-print "a print statement"
+from __future__ import print_function
+print("a print statement")
