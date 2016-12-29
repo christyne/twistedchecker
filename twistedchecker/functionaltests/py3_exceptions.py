@@ -15,12 +15,12 @@ except (TypeError, NameError) as e:
 # except exc, var is no longer supported in python 3.
 try:
     pass
-except Exception, e:
+except Exception as e:
     pass
 
 try:
     pass
-except (TypeError, NameError), e:
+except (TypeError, NameError) as e:
     pass
 
 
@@ -28,12 +28,12 @@ except (TypeError, NameError), e:
 
 try:
     pass
-except Exception, e:
+except Exception as e:
     pass
 finally:
     pass
 
 try:
     pass
-except (TypeError, NameError), e:
+except (TypeError, NameError) as e:
     pass
